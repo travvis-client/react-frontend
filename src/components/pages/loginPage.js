@@ -86,20 +86,16 @@ export default function LoginPage(props) {
             <div className="loginButtonContainer">
               <div className="socialMediaButtons">
                 <p>Iniciar sesión con</p>
-                {/* <button className="logoButton"> */}
                 <img
                   src={googlelogo}
                   className="buttonlogo"
                   onClick={() => firebaseGoogle()}
                 />
-                {/* </button> */}
-                {/* <button className="logoButton"> */}
-                <img
+                {/* <img
                   src={facebooklogo}
                   className="buttonlogo"
                   onClick={() => firebaseFacebook()}
-                />
-                {/* </button> */}
+                /> */}
               </div>
               <button className="loginButton">Iniciar</button>
             </div>
