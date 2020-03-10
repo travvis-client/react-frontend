@@ -1,0 +1,8 @@
+.dashboardContainer {
+  display: flex;
+  width: 100%;
+}
+
+.displayContainer {
+  margin: auto;
+}
