@@ -79,3 +79,9 @@
 .hiddenCurve {
   visibility: hidden;
 }
+
+.navOption{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

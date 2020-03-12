@@ -3,7 +3,7 @@ import React from 'react'
 export default function Support() {
     return (
         <div>
-            support
+            {window.innerWidth}
         </div>
     )
 }

@@ -1,0 +1,167 @@
+.fadeIn {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeOut {
+  opacity: 1;
+  animation-name: fadeOutOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+@keyframes fadeOutOpacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.cards-container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.carouselButton {
+  border-radius: 100px;
+  border: none;
+  /* padding: none; */
+  margin: auto 10px;
+  width: 40px;
+  height: 40px;
+  color: #ff4365;
+  background: #ffffff;
+  box-shadow: 1px 1px 7px 2px #00000029;
+  cursor: pointer;
+}
+
+.card {
+  margin: 10px;
+  position: relative;
+  border-radius: 10px;
+  width: 200px;
+  height: 190px;
+  background-position: top;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  box-shadow: 0px 2px 13px #344db280;
+}
+
+.cardContent {
+  /* z-index: -1; */
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  background: transparent
+    linear-gradient(180deg, #ffffff00 15%, #000000 80%, #000000 90%) 0% 0%
+    no-repeat padding-box;
+}
+
+.cardContentTop {
+  top: 10px;
+  position: absolute;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 0px auto;
+  z-index: 2;
+}
+
+.rating {
+  display: flex;
+  /* flex-direction: row; */
+  /* padding: 5px 9px 7px 6px; */
+  border-radius: 25px;
+  font-size: small;
+  size: 20px;
+  background: black;
+  color: white;
+  height: 30px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.ratingText {
+  margin: 0;
+}
+
+.favoritesButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  border: none;
+  padding: none;
+  cursor: pointer;
+}
+
+.cardContentButtom {
+  position: absolute;
+  bottom: 10px;
+  margin:auto;
+  width: 90%;
+}
+
+.cardBottomText {
+  display: flex;
+  position: relative;
+  margin: 0;
+  width: 100%;
+  
+}
+.cardBottomText p {
+  margin: 0 0 4px 0;
+  text-align: left;
+  color: white;
+}
+
+.cardCompanyName {
+  font-size: 98%;
+}
+
+.infoLabel {
+  width: 60px;
+  font-size: 15px;
+}
+
+.cardReachCount {
+  width: 60px;
+  margin-right:40px;
+}
+
+.cardViewButton {
+  text-decoration: none;
+  position: absolute;
+  border-radius: 25px;
+  border: none;
+  padding-bottom:3px;
+  width: 35px;
+  height: 20px;
+  color: white;
+  background: #ff4365;
+  right: 0px;
+  /* align-self: flex-end; */
+  cursor: pointer;
+}
+
+.hideButton {
+  visibility: hidden;
+}

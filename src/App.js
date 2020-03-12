@@ -7,6 +7,7 @@ import Dashboard from "./components/pages/dashboard";
 import RegisterPage from "./components/pages/registerPage.js";
 
 function App() {
+  console.log(window.innerWidth)
   return (
     <div className="App">
       <Switch>

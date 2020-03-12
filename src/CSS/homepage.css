@@ -1,0 +1,91 @@
+.homepageContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 94%;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .headerContainer {
+        display: flex;
+        flex-direction: column;
+      }
+  } */
+
+.infoAndOrder {
+  display: flex;
+  width: 350px;
+  height: 30px;
+  justify-content: space-between;
+  margin:auto;
+}
+
+.campaignCount {
+  display: flex;
+}
+
+.campaignCountRes {
+  margin: 0;
+  padding: 0;
+  margin-right: 5px;
+}
+
+.campaignOrder {
+  display: flex;
+}
+
+.infoAndOrderText {
+  margin: 0;
+  padding: 0;
+  margin-right: 5px;
+  color: #a2a2a2;
+}
+.campaignOrderButton {
+  display: flex;
+  margin-top: 3px;
+  font-size: 15px;
+  background: none;
+  height: 27px;
+  /* width:40px; */
+  border: none;
+}
+.viewAllCampaigns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 5px;
+  width: 100px;
+  border: solid 1px #ff4365;
+  text-decoration: none;
+  color: #ff4365;
+  align-self: flex-end;
+}
+
+.userGreetingContainer{
+
+}
+
+.userInfoAndLogo {
+
+}
+
+.userLogo{
+    width: 100px;
+border-radius: 25px;
+border: 1px solid #E6E6F0;
+box-shadow: 0px 3px 6px #00000029;
+}
+.logoutButton {
+    background: none;
+    border:none;
+    color: #707070;
+    font-size: 20px;
+    /* font-family: 'Poppins' */
+}
