@@ -1,12 +1,32 @@
 .homepageContainer {
   width: 100%;
   display: flex;
+  flex-direction: row;
+}
+
+.leftSideContent {
+  display: flex;
   flex-direction: column;
+}
+
+.campaignSearchInput {
+  width: 70%;
+  margin: auto 0;
+  align-self: flex-start;
+  box-shadow: 0px 3px 11px #0000001c;
+  border-radius: 8px;
+  background: #fcfcfc 0% 0% no-repeat padding-box;
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  align-self: center;
 }
 
 .headerContainer {
   display: flex;
   justify-content: space-between;
+  font-family: "Courier New", Courier, monospace;
+
   flex-wrap: wrap;
   width: 94%;
 }
@@ -23,7 +43,8 @@
   width: 350px;
   height: 30px;
   justify-content: space-between;
-  margin:auto;
+  /* margin: auto; */
+  align-self: flex-end;
 }
 
 .campaignCount {
@@ -48,7 +69,7 @@
 }
 .campaignOrderButton {
   display: flex;
-  margin-top: 3px;
+  margin-top: -1px;
   font-size: 15px;
   background: none;
   height: 27px;
@@ -68,24 +89,4 @@
   align-self: flex-end;
 }
 
-.userGreetingContainer{
 
-}
-
-.userInfoAndLogo {
-
-}
-
-.userLogo{
-    width: 100px;
-border-radius: 25px;
-border: 1px solid #E6E6F0;
-box-shadow: 0px 3px 6px #00000029;
-}
-.logoutButton {
-    background: none;
-    border:none;
-    color: #707070;
-    font-size: 20px;
-    /* font-family: 'Poppins' */
-}
