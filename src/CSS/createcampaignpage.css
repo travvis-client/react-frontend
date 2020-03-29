@@ -1,0 +1,154 @@
+.createCampaignContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.leftContainerContent {
+  width: 48%;
+}
+
+.rightContainerContent {
+  width: 48%;
+}
+.ticketContainer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  /* text-align: end; */
+}
+.ticketTitle {
+    align-self: flex-end;
+    color: #545454;
+}
+.ticketContent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.ticket {
+  display: flex;
+  width: 85%;
+  height: 130px;
+}
+.ticketNumber {
+  width: 40px;
+  height: 80px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border: 3px dashed #ff4365;
+  border-right: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #707070;
+  font-size: 40px;
+}
+.ticketleftcontent {
+  background: #e6e6e6 0% 0% no-repeat padding-box;
+  /* box-shadow: 0px 5px 10px #81787891; */
+  /* clip-path: inset(-20px 0px -20px -20px); */
+  /* border: 1px solid #443a3a14; */
+  /* border-right:solid; */
+  border-radius: 5px 0 0 5px;
+  width: 70%;
+  position: relative !important;
+  padding-right: none;
+}
+
+.ticketleftcontent:after {
+  content: "";
+  position: absolute !important;
+  z-index: 100;
+  bottom: 0;
+  right: -1px;
+  border-right: white 7px solid;
+  border-bottom: white 7px solid;
+  -moz-border-radius: 20px 0 0 0;
+  -webkit-border-radius: 20px 0 0 0;
+  border-radius: 20px 0 0 0;
+}
+
+.ticketleftcontent:before {
+  content: "";
+  position: absolute !important;
+  z-index: 100;
+  top: 0;
+  right: -1px;
+  border-left: white 7px solid;
+  border-bottom: white 7px solid;
+  -moz-border-radius: 0 0 0 20px;
+  -webkit-border-radius: 0 0 0 20px;
+  border-radius: 0 0 0 20px;
+}
+
+.ticketCountOptions{
+
+}
+.ticketCountOptions{
+    display: flex;
+    justify-content: center;
+}
+.ticketCountOptionsLeft{
+
+}
+.ticketCountOptionsright{
+
+}
+
+.ticketbordercontainer {
+  height: 110px;
+  margin-top: 10px;
+  /* background-color: white; */
+  /* box-shadow: 10px #81787891; */
+  border: 1px dashed #81787891;
+}
+.ticketborder {
+  height: 110px;
+  border: 1.3px dashed #81787891;
+  box-shadow: 0px 5px 10px #81787891;
+}
+.ticketrightcontent {
+  background: #ececec 0% 0% no-repeat padding-box;
+  /* box-shadow: 0px 5px 10px #81787891;
+  clip-path: inset(-20px -20px -20px 0px); */
+  /* border: 1px solid #443a3a14; */
+  /* border-left:1px dashed; */
+  border-radius: 0 5px 5px 0;
+  width: 30%;
+  position: relative !important;
+}
+
+.ticketrightcontent:after {
+  content: "";
+  position: absolute !important;
+
+  z-index: 100;
+  bottom: 0;
+  left: -1px;
+  border-right: white 7px solid;
+  border-bottom: white 7px solid;
+  -moz-border-radius: 0 20px 0 0;
+  -webkit-border-radius: 0 20px 0 0;
+  border-radius: 0 20px 0 0;
+}
+
+.ticketrightcontent:before {
+  content: "";
+  position: absolute !important;
+  z-index: 100;
+  top: 0;
+  left: -1px;
+  border-left: white 7px solid;
+  border-bottom: white 7px solid;
+  -moz-border-radius: 0 0 0 20px;
+  -webkit-border-radius: 0 0 0 20px;
+  border-radius: 0 0 20px 0;
+}
+
+

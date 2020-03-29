@@ -9,6 +9,7 @@
   
   .userGreetingContainer {
     width: 200px;
+    /* width:10px; */
     display: flex;
     flex-direction: column;
     justify-content: start;
