@@ -70,7 +70,7 @@ export default function CreateCampaign() {
                         onChange={handleChange}
                         value="1000"
                         name="reach"
-                        styles={{background: "blue"}}
+                        styles={{ background: "blue" }}
                       />
                     </div>
                     <div className="CountOptionRight">
@@ -94,9 +94,13 @@ export default function CreateCampaign() {
                   </div>
                 </div>
               </div>
-              <hr className="ticketbordercontainer" />
+              {/* <br className="ticketbordercontainer" /> */}
 
-              <div className="ticketrightcontent">{options.reach}</div>
+              <div className="ticketrightcontent">
+                <div style={{ borderLeft: "2px dashed", height: "100%" }}>
+                  {options.reach}
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -109,12 +113,16 @@ export default function CreateCampaign() {
               <div className="ticketleftcontent">
                 Duración de la campaña en días
               </div>
-              <div className="ticketbordercontainer">
-                {/* <div className="ticketborder">
+              {/* <div className="ticketbordercontainer">
+                <div className="ticketborder">
 
-                  </div> */}
+                  </div>
+              </div> */}
+              <div className="ticketrightcontent">
+                <div style={{ borderLeft: "2px dashed", height: "100%" }}>
+                  right
+                </div>
               </div>
-              <div className="ticketrightcontent">right</div>
             </div>
           </div>
         </div>
